@@ -16,7 +16,7 @@ Welcome to my profile!🌿 I am a developer who loves to **code**. I love making
 ![](https://github-profile-trophy.vercel.app/?username=wind-94&theme=catppuccin_mocha&no-frame=false&no-bg=true&margin-w=4)
 
 ---
-[![](https://visitcount.itsvg.in/api?id=wind-94&icon=0&color=0)](https://visitcount.itsvg.in)
+[![](https://visitcount.itsvg.in/api?id=wind-94&icon=1&color=0)](https://visitcount.itsvg.in)
 
 
 ## 🌐 Socials:
