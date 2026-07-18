@@ -8,20 +8,19 @@
 
 <div align="center">
   
-  <h3>Web Development</h3>
   <img src="https://img.shields.io/badge/HTML5-22c55e?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
   <img src="https://img.shields.io/badge/CSS3-2bce7b?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
   <img src="https://img.shields.io/badge/JavaScript-bef264?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
   <img src="https://img.shields.io/badge/React.js-22c55e?style=for-the-badge&logo=react&logoColor=white" alt="React" />
   <img src="https://img.shields.io/badge/Node.js-2bce7b?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
+  </br>
 
-  <h3>Languages & Databases</h3>
   <img src="https://img.shields.io/badge/C-22c55e?style=for-the-badge&logo=c&logoColor=white" alt="C" />
   <img src="https://img.shields.io/badge/C++-2bce7b?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++" />
   <img src="https://img.shields.io/badge/Python-bef264?style=for-the-badge&logo=python&logoColor=black" alt="Python" />
   <img src="https://img.shields.io/badge/SQL-22c55e?style=for-the-badge&logo=mysql&logoColor=white" alt="SQL" />
+  </br>
 
-  <h3>Design & Rendering</h3>
   <img src="https://img.shields.io/badge/Unreal_Engine-22c55e?style=for-the-badge&logo=unrealengine&logoColor=white" alt="Unreal Engine" />
   <img src="https://img.shields.io/badge/Aseprite-2bce7b?style=for-the-badge&logo=aseprite&logoColor=white" alt="Aseprite" />
   <img src="https://img.shields.io/badge/Illustrator-bef264?style=for-the-badge&logo=adobeillustrator&logoColor=black" alt="Illustrator" />
