@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 250" width="100%" height="250">
+  <defs>
+    <!-- Define the Gradient: Vibrant Green to Light Lime -->
+    <linearGradient id="leafGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#22c55e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#bef264;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <style>
+    /* Main 3D Text */
+    .ascii {
+      font-family: Consolas, "Courier New", monospace;
+      font-weight: bold;
+      font-size: 15px; 
+      fill: url(#leafGradient);
+      white-space: pre;
+    }
+  </style>
+  
+  <!-- Center 3D ASCII Text -->
+  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" class="ascii">
+    <tspan x="50%" dy="-3.5em">  _____         _       ____  _             _    </tspan>
+<tspan x="50%" dy="1.1em"> |_   _|__  ___| |__   / ___|| |_ __ _  ___| | __</tspan>
+<tspan x="50%" dy="1.1em">   | |/ _ \/ __| '_ \  \___ \| __/ _` |/ __| |/ /</tspan>
+<tspan x="50%" dy="1.1em">   | |  __/ (__| | | |  ___) | || (_| | (__|   &lt; </tspan>
+<tspan x="50%" dy="1.1em">   |_|\___|\___|_| |_| |____/ \__\__,_|\___|_|\_\</tspan>
+<tspan x="50%" dy="1.1em">                                                 </tspan>
+  </text>
+</svg>
