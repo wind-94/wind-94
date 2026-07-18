@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 250" width="100%" height="250">
+  <defs>
+    <!-- Define the "Leaf" Gradient: Vibrant Green to Light Lime -->
+    <linearGradient id="leafGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#22c55e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#bef264;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Glowing Filter for the Dust Particles -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="1.5" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <style>
+    /* Main 3D Text */
+    .ascii {
+      font-family: Consolas, "Courier New", monospace;
+      font-weight: bold;
+      font-size: 15px; 
+      fill: url(#leafGradient);
+      white-space: pre;
+    }
+    
+    /* Large Static Emojis */
+    .main-emoji { font-size: 65px; }
+    
+    /* Small Floating Leaves */
+    .float-leaf {
+      font-size: 18px;
+      opacity: 0;
+      animation: floatUp ease-in-out infinite;
+    }
+    
+    /* Glowing Dust Particles */
+    .dust {
+      fill: #bef264;
+      filter: url(#glow);
+      opacity: 0;
+      animation: floatUp ease-in-out infinite;
+    }
+
+    /* The Wind Animation: Drifts upwards while swaying left and right */
+    @keyframes floatUp {
+      0%   { transform: translate(0, 260px); opacity: 0; }
+      20%  { opacity: 0.6; transform: translate(-25px, 180px); }
+      50%  { opacity: 0.8; transform: translate(25px, 100px); }
+      80%  { opacity: 0.6; transform: translate(-15px, 40px); }
+      100% { transform: translate(0, -30px); opacity: 0; }
+    }
+
+    /* Staggered Timings: Makes the particles look natural and random */
+    .delay-1 { animation-duration: 14s; animation-delay: 0s; }
+    .delay-2 { animation-duration: 11s; animation-delay: -3s; }
+    .delay-3 { animation-duration: 16s; animation-delay: -7s; }
+    .delay-4 { animation-duration: 12s; animation-delay: -5s; }
+    .delay-5 { animation-duration: 18s; animation-delay: -9s; }
+  </style>
+  
+  <!-- LAYER 1: Background Floating Particles -->
+  <g>
+    <!-- Glowing Dust -->
+    <circle cx="150" cy="0" r="2.5" class="dust delay-1" />
+    <circle cx="450" cy="0" r="3.5" class="dust delay-2" />
+    <circle cx="600" cy="0" r="2.0" class="dust delay-4" />
+    <circle cx="850" cy="0" r="3.0" class="dust delay-5" />
+    <circle cx="300" cy="0" r="1.5" class="dust delay-3" />
+    
+    <!-- Small Leaves -->
+    <text x="220" y="0" class="float-leaf delay-3">🍃</text>
+    <text x="700" y="0" class="float-leaf delay-1">🍃</text>
+    <text x="100" y="0" class="float-leaf delay-4">🍃</text>
+    <text x="880" y="0" class="float-leaf delay-2">🍃</text>
+  </g>
+  
+  <!-- LAYER 2: Foreground Main Logo -->
+  <text x="15%" y="50%" dominant-baseline="middle" text-anchor="middle" class="main-emoji">🍃</text>
+  
+  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" class="ascii">
+    <tspan x="50%" dy="-3.5em">██╗    ██╗██╗███╗   ██╗██████╗        █████╗ ██╗  ██╗</tspan>
+<tspan x="50%" dy="1.1em">██║    ██║██║████╗  ██║██╔══██╗      ██╔══██╗██║  ██║</tspan>
+<tspan x="50%" dy="1.1em">██║ █╗ ██║██║██╔██╗ ██║██║  ██║█████╗╚██████║███████║</tspan>
+<tspan x="50%" dy="1.1em">██║███╗██║██║██║╚██╗██║██║  ██║╚════╝ ╚═══██║╚════██║</tspan>
+<tspan x="50%" dy="1.1em">╚███╔███╔╝██║██║ ╚████║██████╔╝       █████╔╝     ██║</tspan>
+<tspan x="50%" dy="1.1em"> ╚══╝╚══╝ ╚═╝╚═╝  ╚═══╝╚═════╝        ╚════╝      ╚═╝</tspan>
+<tspan x="50%" dy="1.1em">                                                     </tspan>
+  </text>
+  
+  <text x="85%" y="50%" dominant-baseline="middle" text-anchor="middle" class="main-emoji">🍃</text>
+</svg>
